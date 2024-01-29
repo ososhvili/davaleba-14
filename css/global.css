@@ -197,7 +197,7 @@ a {
 
 .container-image2 {
   height: 606px;
-  background-image: url(../../images/Rectangle.png);
+  background-image: url(../images/Rectangle.png);
   background-color: lightgray;
   background-size: cover;
   background-position: center;
