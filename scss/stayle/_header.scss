@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+.container-top{
+    height: 84px;
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        gap: 50px;
+        a{
+            @extend %myfonts;
+            color: #636060;
+            font-size: 17px;
+        }
+    }
+    .fa-bars{
+        display: none;
+    }
+    @media (max-width:650px) {
+        .fa-bars{
+            display: block;
+        }
+        nav{
+            display: none;
+        }
+    }
+}
