@@ -45,7 +45,6 @@
     display: flex;
     gap: 83px;
     .services{
-
         width: 235px;
         h3{
             @extend %myfonts;
@@ -59,6 +58,7 @@
             margin: 9px 0 37px 0;
         }
         p{
+            width: 235px;
             @extend %myfonts;
             color: #636060;
             font-size: 20px;
@@ -106,5 +106,9 @@
     .container-bot .services{
         max-width: 470px;
         width: 100%;
+        p{
+            max-width: 470px;
+            width: 100%;
+        }
     }
-}
+ }

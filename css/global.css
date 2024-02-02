@@ -267,6 +267,7 @@ a {
   margin: 9px 0 37px 0;
 }
 .container-bot .services p {
+  width: 235px;
   color: #636060;
   font-size: 20px;
 }
@@ -318,6 +319,10 @@ a {
             align-items: center;
   }
   .container-bot .services {
+    max-width: 470px;
+    width: 100%;
+  }
+  .container-bot .services p {
     max-width: 470px;
     width: 100%;
   }
